@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    width:  1253px;
+    height: 678px;
+    font-style: normal;
+    padding: 64px 61px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffe246;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 6px;
+    padding: 52px;
+    position: relative;
+}
+
+.passwordOneEl{
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 10px;
+    width: 200px;
+    height: 39px;
+    border-radius: 6px;
+    background: #ffe97f;
+}
+
+.passwordTwoEl {
+    display: inline-flex;
+    justify-content: center;
+    width: 200px;
+    height: 39px;
+    border-radius: 6px;
+    background: #ffe97f;
+}
+
+#divider {
+    width: 500px;
+    height: 1px;
+    background: #D5D4D8;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 5px;
+    color: #6B7280;
+}
+
+h1{
+    color: #2B283A;
+    line-height: 40px; 
+    font-family: Karla; 
+    font-size: 40px; 
+    font-weight: 10px;
+    font-style: normal; 
+    letter-spacing: -2px; 
+    font-weight: 800; 
+}
+
+button {
+    font-family: Inter; 
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 0px #ffe566 solid;
+    background: #ffe566; 
+    border-radius: 6px; 
+    color: #FFFFFF;
+    gap: 12px; 
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+#oneEl{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px; /* 200% */ 
+}
+
+#twoEl{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px; /* 200% */ 
+}
